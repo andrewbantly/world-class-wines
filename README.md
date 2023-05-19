@@ -1,6 +1,6 @@
 # World-Class Wines
 
-## Goal
+## Project objective
 
 The primary objective of this project is twofold: to acquire proficiency in a new technology - D3.js - and to construct a captivating and dynamic data visualization centered around a subject matter that resonates with me.
 
@@ -38,6 +38,14 @@ Logistically, in order to successfly learn and implement D3.js technology, I wil
 * As a user, I want to learn about world-class wines by interacting with visualized data
 * As a user, I want to gain a greater appreciation for winemaking
 
+## MVP Goals
+* Develop a data-driven document (D3.js) 
+* Deploy an app that hosts the data-driven document 
+* Sleek styling
+
+## Stretch Goals
+* Refactor my app to Next.js or React.js
+
 ## Sprints
 
 Friday, May 20:
@@ -65,3 +73,12 @@ Wednesday, May 25:
 
 Thursday, May 26:
 * Deploy
+
+## Tech Stack
+
+```
+HTML
+CSS
+JavaScript
+D3.js
+```
