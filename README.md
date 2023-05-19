@@ -30,6 +30,10 @@ Logistically, in order to successfly learn and implement D3.js technology, I wil
 4. Fork and modify a Observable notebook template using collected wine data
 1. Download and transfer Observable code to project files and deploy.
 
+## Observable notebook
+![Zoomable Sunburst](./READmedia/Zoomable%20Sunburst.png)
+[Zoomable Sunburt](https://observablehq.com/@d3/zoomable-sunburst)
+
 ## Wireframe
 ![Wireframe](./READmedia/wireframe.png)
 
