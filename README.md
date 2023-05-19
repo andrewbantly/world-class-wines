@@ -23,9 +23,45 @@ Leveraging [Observable](https://observablehq.com/) as a educational and developm
 Logistically, in order to successfly learn and implement D3.js technology, I will need to minimally:
 1. Familiarize myself with the D3.js documentation and resources to gain an understanding of its core concepts, features, and usage. 
 1. Develop a viable understanding of working with D3 on the Observable platform
-2. Collect raw data and generate organized ```json``` or ```csv``` files to attach to the notebook or fetch from GitHub, both I believe are an acceptable approach with this dataset size. 
+1. Collect raw data and generate organized ```json``` or ```csv``` files to attach to the notebook or fetch from GitHub, both I believe are an acceptable approach with this dataset size. 
 
 *Note: I have demonstrated the ability to produce a csv file based on response data from a* ```GET``` *API call in Python.*
 
-3. Fork and modify a Observable notebook template using collected wine data
-4. Download and transfer Observable code to project files and deploy.
+4. Fork and modify a Observable notebook template using collected wine data
+1. Download and transfer Observable code to project files and deploy.
+
+## Wireframe
+![Wireframe](./READmedia/wireframe.png)
+
+## User stories
+* As a user, I want to see proportional data of world-class wines in an attractive and dynamic way
+* As a user, I want to learn about world-class wines by interacting with visualized data
+* As a user, I want to gain a greater appreciation for winemaking
+
+## Sprints
+
+Friday, May 20:
+* Get project approved 
+* Review D3 and Observable documentation
+* Fork and read through code of template notebook, create comments in code of functionality
+
+Saturday, May 21:
+* Out of office (friend's wedding)
+
+Sunday, May 22:
+* Work hands-on with template notebook, create commends in code of observations 
+* Collect and organize data into a ```json``` 
+* Integrate data into notebook
+
+Monday, May 23:
+* Integrate data into notebook (cont'd)
+
+Tuesday, May 24:
+* Transfer code to application 
+
+Wednesday, May 25:
+* Debug and/or refactor where necessary 
+* App styling
+
+Thursday, May 26:
+* Deploy
