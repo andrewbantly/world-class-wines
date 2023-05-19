@@ -1,0 +1,26 @@
+{
+    "name": "wine",
+    "children": [
+        {"name": "red",
+        "children": [
+            {
+                "name": "United States",
+                "children": [
+                    {"name": "Napa Valley",
+                    "children":
+                    [{
+                        "name": "Hundred Acre",
+                        "children": [
+                            {
+                                "name": "Kayli Morgan Vineyard Cabernet Sauvignon 2015",
+                                "rating": 4.9
+                            }
+                        ]
+                    }]
+                }
+                ]
+            }
+        ]
+    }
+    ]
+}
