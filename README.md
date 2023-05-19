@@ -34,6 +34,16 @@ Logistically, in order to successfly learn and implement D3.js technology, I wil
 ![Zoomable Sunburst](./READmedia/Zoomable%20Sunburst.png)
 [Zoomable Sunburt](https://observablehq.com/@d3/zoomable-sunburst)
 
+## Data source
+* [Red wines](https://api.sampleapis.com/wines/reds)
+* [White wines](https://api.sampleapis.com/wines/whites)
+* [Sparkling wines](https://api.sampleapis.com/wines/sparkling)
+* [Rose wines](https://api.sampleapis.com/wines/rose)
+* [Port wines](https://api.sampleapis.com/wines/port)
+* [Dessert wines](https://api.sampleapis.com/wines/Dessert)
+
+![API](./READmedia/wine-api-example.png)
+
 ## Wireframe
 ![Wireframe](./READmedia/wireframe.png)
 
