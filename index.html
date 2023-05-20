@@ -6,14 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script defer src="./js/script.js"></script>
+    <script defer src="./index.js"></script>
     <title>Word-Class Wines</title>
+    <style>
+        ellipse {
+            stroke: green;
+            fill: yellow;
+            stroke-width: 20px;
+            transition: all 3000ms;
+        }
+
+        ellipse:hover {
+            stroke: green;
+            fill: yellow;
+            stroke-width: 100px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>World-Class Wines</h1>
     </header>
+
+
+    <!-- <svg width="960" height="500">
+        <circle cx="50" cy="50" r="50" fill="green"></circle>
+        <circle cx="150" cy="50" r="50" fill="#399393"></circle>
+        <ellipse cx="400" cy="100" rx="100" ry="75"></ellipse>
+        <line x1="0" y1="0" x2="100" y2="100" stroke="navy" stroke-width="7"></line>
+        <rect x="300" y="200" width="150" height="150" fill="#495d6a" stroke="#903d1a" stroke-width="10"></rect> -->
+        <!-- d = the domain specific string that is specific for svg paths -->
+        <!-- d = the domain specific string that is specific for svg paths -->
+        <!-- M = move to command -->
+        <!-- L = Line to command... draw a line to this coordinate-->
+        <!-- An uppercase letter specifies absolute coordinates on the page, and a lowercase letter specifies relative coordinates -->
+        <!-- <path d="M 200, 200 L 300, 300 l 50, 100" stroke="black" stroke-width="10"></path>
+        <path d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent" />
+
+    </svg> -->
+
+
 
     <footer>
         <p>Developed by Andrew Bantly </p>
