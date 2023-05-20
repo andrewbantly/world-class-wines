@@ -17,7 +17,6 @@ wine_data = {
     "children": []
 }
 
-
 myjson = response.json()
 
 for x in myjson:
@@ -36,16 +35,29 @@ for x in myjson:
 
     winery = [x['winery']]
     wine = [x['wine']]
-
-    # print(f"From {town}, {country}, {winery[0]} produced one of the great wines of the world: {wine[0]}.")
-    # data = {'country': country, 'town': town, 'winery': winery[0], 'wine': wine[0], 'value': value}    
-    # if country in wine_data['name']:
-    #     continue
-    # else:
-    #     wine_data['name'] = country
     winery_name = unidecode.unidecode(winery[0])
     wine_name = unidecode.unidecode(wine[0])
-    wine_score = {"name": wine_name, "value": value}
+
+    if winery_name == "Tres Mil Botellas":
+        town = "Cadiz"
+        country = "Spain"
+    if wine_name == "Onda Napa Valley Cabernet Sauvignon 2010":
+        winery_name = "Dana Estates"
+        town = "Napa Valley"
+        country = "United States"
+    if wine_name == "Tesseron Cognac Lot No 29 X.O Exception N.V.":
+        winery_name = "Tesseron"
+        country= "France"
+        town = "Cognac"
+    if wine_name == "Chateau D Yguene 2001":
+            print(x)
+            wine_name = "Chateau D'Yguene 2001"
+            winery_name = "Sauternes"
+            town = "Sauternes"
+            country = "France"
+
+
+
     country_node = next((child for child in wine_data["children"] if child["name"] == country), None)
     if country_node:
         # country_node["children"].append(data)
@@ -54,18 +66,18 @@ for x in myjson:
             # town_node["children"].append(winery)
             winery_node = next((child for child in town_node["children"] if child["name"] == winery_name), None)
             if winery_node:
-                winery_node["children"].append(wine_score)
+                winery_node["value"] += 1
             else:
                 town_node["children"].append({
                 "name": winery_name,
-                "children": [wine_score]
+                "value": 1
             })
         else:
             country_node["children"].append({
                 "name": town,
                 "children": [{
                     "name": winery_name,
-                    "children": [wine_score]
+                    "value": 1
                 }]
             })
 
@@ -76,28 +88,12 @@ for x in myjson:
                 "name": town,
                 "children": [{
                     "name": winery_name,
-                    "children": [wine_score]
+                    "value": 1
                 }]
             }]
         })
 
-
-
-
-
-
-    # country_node = next((child for child in wine_data['children'] if child['name'] == country), None)
-    # if country_node:
-    #     country_node['children'].append(data)
-    # else:
-    #     wine_data['children'].append({
-    #         'name': country,
-    #         'children': [data]
-    #     })
-
-
 with open('red_wine.json', 'w', encoding='UTF8') as f:
     json.dump(wine_data, f)
 
-# print(wine_data)
 print("done")
