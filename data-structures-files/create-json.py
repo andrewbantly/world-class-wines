@@ -96,7 +96,7 @@ for x in myjson:
     #     })
 
 
-with open('red_wine9.json', 'w', encoding='UTF8') as f:
+with open('red_wine.json', 'w', encoding='UTF8') as f:
     json.dump(wine_data, f)
 
 # print(wine_data)
