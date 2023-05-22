@@ -1,0 +1,14 @@
+{
+  "name": "31980671b2e4d2bf",
+  "main": "31980671b2e4d2bf@369.js",
+  "version": "369.0.0",
+  "homepage": "https://observablehq.com/d/31980671b2e4d2bf",
+  "author": {
+    "name": "Project-four",
+    "url": "https://observablehq.com/@project-four"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
