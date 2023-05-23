@@ -2,7 +2,7 @@
     "name": "World-Class Wine",
     "children": [
         {
-            "name": "reds",
+            "name": "Reds",
             "children": [
                 {
                     "name": "Spain",
@@ -1765,7 +1765,7 @@
             ]
         },
         {
-            "name": "whites",
+            "name": "Whites",
             "children": [
                 {
                     "name": "France",
@@ -3313,7 +3313,7 @@
             ]
         },
         {
-            "name": "rose",
+            "name": "Rose",
             "children": [
                 {
                     "name": "United States",
@@ -5262,7 +5262,7 @@
             ]
         },
         {
-            "name": "sparkling",
+            "name": "Sparkling",
             "children": [
                 {
                     "name": "France",
@@ -6063,7 +6063,7 @@
             ]
         },
         {
-            "name": "port",
+            "name": "Port",
             "children": [
                 {
                     "name": "Portugal",
@@ -6728,7 +6728,7 @@
             ]
         },
         {
-            "name": "dessert",
+            "name": "Dessert",
             "children": [
                 {
                     "name": "Hungary",

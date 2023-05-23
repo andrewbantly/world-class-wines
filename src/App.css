@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+body {
+  background-color: #e1e5f5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+aside {
+  width: 25%;
+  position: relative;
+  margin: 0 auto;
+  color: #404E5C;
+  font-family: 'Share Tech', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+aside > h1 {
+  font-size: 1.5rem;
+}
+aside > p {
+  font-size: 0.8rem;
+}
+.notebookContainer {
+  width: 50%;
+  margin: 1rem auto;
 }
