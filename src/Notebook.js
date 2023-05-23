@@ -16,7 +16,6 @@ function Notebook() {
   return (
     <>
       <div ref={chartRef} />
-      {/* <p>Credit: <a href="https://observablehq.com/d/31980671b2e4d2bf@716">World-Class Wines by Project-four</a></p> */}
     </>
   );
 }
