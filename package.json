@@ -7,14 +7,12 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "2ea21d94adf9f376": "https://api.observablehq.com/d/2ea21d94adf9f376@475.tgz?v=3",
     "31980671b2e4d2bf": "https://api.observablehq.com/d/31980671b2e4d2bf@716.tgz?v=3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "y": "^0.3.2"
-  },
+    "web-vitals": "^2.1.4"
+    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
