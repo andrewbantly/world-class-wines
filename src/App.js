@@ -12,6 +12,7 @@ function App() {
       <div className='notebookContainer'>
         <Notebook />
       </div>
+      <div className='notebookBg'></div>
     </div>
   );
 }

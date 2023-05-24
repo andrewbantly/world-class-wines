@@ -1,5 +1,7 @@
 body {
-  background-color: #c7ccde;
+  background-color: #7e818b;
+  overflow: hidden;
+  /* background-image: radial-gradient(#7e818b, #868995, #a6aab9, #c7ccde); */
 }
 .flex {
   display: flex;
@@ -7,13 +9,15 @@ body {
 
 aside {
   width: 22rem;
-  position: relative;
-  margin: 1rem 0 0 5rem;
+  position: absolute;
+  left: 5rem;
+  margin: 2rem 0;
   font-family: 'Share Tech', sans-serif;
-  background-color: #8da6be;
+  /* background-color: #8da6be; */
   padding: 1rem;
   border-radius: 0.5rem;
   color: #263039;
+  z-index: 2;
 }
 aside > h1 {
   font-size: 2rem;
@@ -24,7 +28,27 @@ aside > p {
   margin: 0.5rem 0 0 0;
   /* color: whitesmoke; */
 }
+a {
+  color: #0e66b3;
+  text-decoration: none;
+}
 .notebookContainer {
+  position: absolute;
   width: 45rem;
-  margin: 2rem auto 0;
+  /* background-image: radial-gradient(#c7ccde, #a6aab9, #868995, #7e818b); */
+  margin: 2rem 0;
+  z-index: 2;
+  right: 5rem;
+}
+
+.notebookBg {
+  position: absolute;
+  z-index: 1;
+  height: 500rem;
+  width: 500rem;
+  right: -222.5rem;
+  top: -225.5rem;
+  /* background-image: radial-gradient(#3a3434 1%,#c7ccde 7%); */
+  background-image: radial-gradient(#333843 1%, #5c6478 5%, #c1c5cf 12%);
+  /* background-image: radial-gradient(#63656c 6%, #a6aab9 14%, #868995 10%, #c7ccde 10%); */
 }

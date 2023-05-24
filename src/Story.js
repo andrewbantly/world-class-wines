@@ -19,6 +19,9 @@ export default function Story() {
             <p>
                 The convergence of art and science in wine making offers a unique perspective on how human creativity and ingenuity can adapt to environmental challenges. Winemakers draw upon their experience, knowledge, and intuition to navigate the ever-changing conditions, crafting wines that tell stories of resilience, adaptability, and the intricate dance between nature and human craftsmanship.
             </p>
+            <p>
+                Written and develop by <a href="https://www.linkedin.com/in/andrewbantly/">Andrew Bantly</a>.
+            </p>
         </>
     )
 }
