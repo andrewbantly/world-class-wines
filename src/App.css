@@ -1,24 +1,30 @@
 body {
-  background-color: #e1e5f5;
+  background-color: #c7ccde;
 }
 .flex {
   display: flex;
 }
 
 aside {
-  width: 25%;
+  width: 22rem;
   position: relative;
-  margin: 0 auto;
-  color: #404E5C;
+  margin: 1rem 0 0 5rem;
   font-family: 'Share Tech', sans-serif;
+  background-color: #8da6be;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #263039;
 }
 aside > h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
 }
 aside > p {
   font-size: 0.8rem;
+  margin: 0.5rem 0 0 0;
+  /* color: whitesmoke; */
 }
 .notebookContainer {
-  width: 50%;
-  margin: 1rem auto;
+  width: 45rem;
+  margin: 2rem auto 0;
 }

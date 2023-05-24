@@ -2,7 +2,7 @@ export default function Story() {
     return (
         <>
             <p>
-                As my father has taught me through the years, the wine making process is a true testament to the delicate harmony between art and science, where the expressive craftsmanship of the winemaker converges with a meticulous understanding of chemical, biological, and climatic intricacies.
+                Wine making is a true testament to the delicate harmony between art and science, where the expressive craftsmanship of the winemaker converges with a meticulous understanding of chemical, biological, and climatic intricacies.
             </p>
             <p>
                 As an art form, wine making celebrates the creative vision and skill of the winemaker. From the selection of grape varieties to the timing of harvest, every decision is influenced by the winemaker's expertise and intuition. The winemaker carefully crafts a narrative through the blending of flavors and the orchestration of fermentation, employing techniques that have been refined over generations.
