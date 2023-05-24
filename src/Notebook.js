@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from "react";
 import {Runtime, Inspector} from "@observablehq/runtime";
-import notebook from "823cc41fe7c9b1d3";
+import notebook from "823cc41fe7c9b1d3"
 
 function Notebook() {
   const wineChartRef = useRef();
@@ -16,7 +16,7 @@ function Notebook() {
   return (
     <>
       <div ref={wineChartRef} />
-      <p>Credit: <a href="https://observablehq.com/d/823cc41fe7c9b1d3@170">World-Class Wines by Project-four</a></p>
+      {/* <p>Credit: <a href="https://observablehq.com/d/823cc41fe7c9b1d3@199">World-Class Wines by Project-four</a></p> */}
     </>
   );
 }
