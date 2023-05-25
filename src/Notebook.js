@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from "react";
 import {Runtime, Inspector} from "@observablehq/runtime";
-import notebook from "823cc41fe7c9b1d3"
+import notebook from "823cc41fe7c9b1d3";
+
 
 function Notebook() {
   const wineChartRef = useRef();

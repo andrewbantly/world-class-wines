@@ -1,5 +1,5 @@
 body {
-  background-color: orange;
+  background-color: #36373B;
   /* background-color: #333843; */
   /* background-color: #c1c5cf; */
 }
@@ -8,7 +8,8 @@ body {
   display: flex;
 }
 aside {
-  color: #c1c5cf;
+  color: #9B9A9C;
+  /* color: #c1c5cf; */
   font-family: 'Share Tech', sans-serif;
   /* color: #263039; */
   z-index: 2;
@@ -69,9 +70,12 @@ a {
   transform: translate(-50%, -50%);
   /* transform: translate(-14.25%, -50.25%); */
   border-radius: 50%;
+  /* background-image: radial-gradient(circle, #dd759683 1%, #b7c3f3 15%, #c1c5cf 40%); */
   /* background-image: radial-gradient(circle, #263039 2%, rgba(193, 197, 207, 0.1) 42%, #c1c5cf 40%); */
-  /* background-image: radial-gradient(circle, #333843 30%, rgba(193, 197, 207, 0.1) 70%, #c1c5cf); */
-  background-image: radial-gradient(circle, #c1c5cfc8 1%,  #7a7d84c8 43%, #33384320 40%);
+  /* background-image: radial-gradient(circle at center, #333843 30%, rgba(193, 197, 207, 0.1) 70%, #c1c5cf); */
+  /* background-image: radial-gradient(circle at center, #424f6a 0%, rgba(193, 197, 207, 0.1) 50%, rgba(193, 197, 207, 0.1) 50%, #c1c5cf); */
+
+  /* background-image: radial-gradient(circle, #c1c5cfc8 1%,  #7a7d84c8 43%, #33384320 20%); */
   background-size: cover;
   background-position: center center;
   overflow: hidden;
