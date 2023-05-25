@@ -72,19 +72,11 @@ a {
   .notebookContainer {
     width: 40rem;
   }
-
-  aside {
-    color: red;
-  }
 }
 
 @media screen and (max-width: 1130px) {
   .notebookContainer {
     width: 35rem;
-  }
-
-  aside {
-    color: green;
   }
 }
 
@@ -92,17 +84,10 @@ a {
   .notebookContainer {
     width: 35rem;
   }
-
-  aside {
-    color: orange;
-    width: 18rem;
-  }
-
   aside>h1 {
     font-size: 2rem;
     margin: 0 0 0.5rem 0;
   }
-
   p {
     font-size: 0.8rem;
     margin: 0.5rem 0 0 0;
@@ -128,7 +113,6 @@ a {
   }
 
   aside {
-    color: yellow;
     position: relative;
   }
 
@@ -165,10 +149,6 @@ a {
 
   .notebookBg {
     top: 65%;
-  }
-
-  aside {
-    color: rgb(0, 255, 4);
   }
 
   .storyText,
