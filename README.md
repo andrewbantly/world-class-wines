@@ -1,5 +1,7 @@
 # World-Class Wines
 
+[Deployed link](https://andrewbantly.github.io/world-class-wines)
+
 ## Project objective
 
 The primary objective of this project is twofold: to acquire proficiency in a new technology - D3.js - and to construct a captivating and dynamic data visualization centered around a subject matter that resonates with me.
