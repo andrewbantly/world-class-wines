@@ -160,20 +160,20 @@ a {
 @media screen and (max-width: 600px) {
   .notebookContainer {
     width: 90%;
-    top: 63%
+    top: 55%
   }
 
   .notebookBg {
-    top: 65%;
+    top: 57%;
   }
 
   aside {
-    color: rgb(255, 0, 200);
+    color: rgb(0, 255, 4);
   }
 
   .storyText,
   .aboutText {
-    width: 70%;
+    width: 90%;
   }
 
   p {
