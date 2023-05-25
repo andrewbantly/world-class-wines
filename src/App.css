@@ -41,9 +41,10 @@ a {
 .notebookContainer {
   position: absolute;
   width: 45rem;
-  margin: 2rem 0;
   z-index: 2;
-  right: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* .notebookBg {
@@ -60,12 +61,12 @@ a {
 .notebookBg {
   position: absolute;
   z-index: 1;
-  width: 100vh;
-  height: 100vh;
+  width: 69%;
+  height: 69%;
   top: 50%;
   left: 50%;
-  /* transform: translate(-14.25%, -50.25%); */
   transform: translate(-50%, -50%);
+  /* transform: translate(-14.25%, -50.25%); */
   border-radius: 50%;
   /* background-image: radial-gradient(circle, #263039 2%, rgba(193, 197, 207, 0.1) 42%, #c1c5cf 40%); */
   /* background-image: radial-gradient(circle, #333843 30%, rgba(193, 197, 207, 0.1) 70%, #c1c5cf); */

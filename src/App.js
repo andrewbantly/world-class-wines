@@ -11,7 +11,7 @@ function App() {
       </aside>
       <aside className="aboutText">
         <p>
-          Develop by <a href="https://www.linkedin.com/in/andrewbantly/">Andrew Bantly</a>
+          Developed by <a href="https://www.linkedin.com/in/andrewbantly/">Andrew Bantly</a>
         </p>
       </aside>
       <div className='overflow'>
