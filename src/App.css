@@ -1,54 +1,142 @@
 body {
-  background-color: #7e818b;
-  overflow: hidden;
-  /* background-image: radial-gradient(#7e818b, #868995, #a6aab9, #c7ccde); */
+  background-color: #333843;
+  /* background-color: #c1c5cf; */
 }
+
 .flex {
   display: flex;
 }
-
 aside {
-  width: 22rem;
-  position: absolute;
-  left: 5rem;
-  margin: 2rem 0;
+  color: #c1c5cf;
   font-family: 'Share Tech', sans-serif;
-  /* background-color: #8da6be; */
-  padding: 1rem;
-  border-radius: 0.5rem;
-  color: #263039;
+  /* color: #263039; */
   z-index: 2;
+  position: absolute;
 }
-aside > h1 {
+.storyText {
+  width: 14rem;
+  left: 5%;
+  margin: 2rem 0;
+}
+.aboutText {
+  right: 5%;
+  bottom: 2rem;
+}
+.storyText > h1 {
   font-size: 2rem;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 1rem 0;
 }
-aside > p {
-  font-size: 0.8rem;
-  margin: 0.5rem 0 0 0;
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
   /* color: whitesmoke; */
 }
+
 a {
   color: #0e66b3;
   text-decoration: none;
 }
+
 .notebookContainer {
   position: absolute;
   width: 45rem;
-  /* background-image: radial-gradient(#c7ccde, #a6aab9, #868995, #7e818b); */
   margin: 2rem 0;
   z-index: 2;
-  right: 5rem;
+  right: 25%;
 }
 
-.notebookBg {
+/* .notebookBg {
   position: absolute;
+  overflow: hidden;
   z-index: 1;
   height: 500rem;
   width: 500rem;
   right: -222.5rem;
   top: -225.5rem;
-  /* background-image: radial-gradient(#3a3434 1%,#c7ccde 7%); */
   background-image: radial-gradient(#333843 1%, #5c6478 5%, #c1c5cf 12%);
-  /* background-image: radial-gradient(#63656c 6%, #a6aab9 14%, #868995 10%, #c7ccde 10%); */
+} */
+
+.notebookBg {
+  position: absolute;
+  z-index: 1;
+  width: 100vh;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-14.25%, -50.25%); */
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  /* background-image: radial-gradient(circle, #263039 2%, rgba(193, 197, 207, 0.1) 42%, #c1c5cf 40%); */
+  /* background-image: radial-gradient(circle, #333843 30%, rgba(193, 197, 207, 0.1) 70%, #c1c5cf); */
+  background-image: radial-gradient(circle, #c1c5cfc8 1%,  #7a7d84c8 43%, #33384320 40%);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1225px) {
+  .notebookContainer {
+    width: 40rem;
+    margin: 4rem 0;
+  }
+
+  .notebookBg {
+    height: 500rem;
+    width: 500rem;
+    right: -228.5rem;
+    top: -225.5rem;
+  }
+
+  aside {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .notebookContainer {
+    width: 35rem;
+    margin: 5rem 0;
+  }
+
+  .notebookBg {
+    height: 500rem;
+    width: 500rem;
+    right: -228.5rem;
+    top: -225.5rem;
+  }
+
+  aside {
+    color: green;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .notebookContainer {
+    width: 35rem;
+    margin: 5rem 0;
+  }
+
+  .notebookBg {
+    height: 500rem;
+    width: 500rem;
+    right: -228.5rem;
+    top: -225.5rem;
+  }
+
+  aside {
+    color: orange;
+    width: 18rem;
+  }
+
+  aside>h1 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  aside>p {
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0 0;
+    /* color: whitesmoke; */
+  }
 }
