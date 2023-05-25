@@ -160,11 +160,11 @@ a {
 @media screen and (max-width: 600px) {
   .notebookContainer {
     width: 90%;
-    top: 55%
+    top: 63%
   }
 
   .notebookBg {
-    top: 57%;
+    top: 65%;
   }
 
   aside {
