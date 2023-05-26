@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/world-class-wines/static/css/main.4bac0fcf.css",
+    "main.css": "/world-class-wines/static/css/main.b9e128ad.css",
     "main.js": "/world-class-wines/static/js/main.2010a028.js",
     "static/js/787.55742bdc.chunk.js": "/world-class-wines/static/js/787.55742bdc.chunk.js",
     "static/media/json": "/world-class-wines/static/media/34469d7f04b4611a9831488e02c71d496d26895559deebae6fef718a5ae795dbdda1873657e15b78922dc6343b116f229af6df9ed1246546f581d312ac91ee29.fc33f521b80898bc0ab7.json",
     "index.html": "/world-class-wines/index.html",
-    "main.4bac0fcf.css.map": "/world-class-wines/static/css/main.4bac0fcf.css.map",
+    "main.b9e128ad.css.map": "/world-class-wines/static/css/main.b9e128ad.css.map",
     "main.2010a028.js.map": "/world-class-wines/static/js/main.2010a028.js.map",
     "787.55742bdc.chunk.js.map": "/world-class-wines/static/js/787.55742bdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bac0fcf.css",
+    "static/css/main.b9e128ad.css",
     "static/js/main.2010a028.js"
   ]
 }
