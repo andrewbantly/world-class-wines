@@ -1,4 +1,4 @@
-# World-Class Wines
+# World Class Wines
 
 [Deployed link](https://andrewbantly.github.io/world-class-wines)
 
