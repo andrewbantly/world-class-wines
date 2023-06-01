@@ -2,7 +2,7 @@ export default function Story() {
     return (
         <>
             <p>
-                Wine making is a true testament to the delicate harmony between art and science, where the expressive craftsmanship of the winemaker converges with a meticulous understanding of chemical, biological, and climatic intricacies.
+                Wine making is a testament to the harmony between art and science, where the expressive craftsmanship of the winemaker converges with a meticulous understanding of chemical, biological, and climatic intricacies.
             </p>
             <p>
                 Discover a curated collection of the finest wineries our planet has to offer.
